@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css.css">
+        <link rel="icon" href="C:\Users\JCPElectrik\Desktop\proyecto control jardin\imagen\logo probisional 6.png">
+        <script src="javascript.js" defer></script>
+        <title> Control de jardín </title>
+    </head>
+    <body>
+        <header>
+            <h1><img src="C:\Users\JCPElectrik\Desktop\proyecto control jardin\imagen\logo probisional 7.png" alt="no se a encontrado imajen" style="width: 30%; height: auto;"></h1>        
+            <div class="container1">
+                <div class="espacio">
+                    <h2> Control de luces </h2>
+                    <button class="boton-redondeado" onclick="">Encender luces porche</button>
+                    <button class="boton-redondeado" onclick="">Apagar luces porche</button>
+                    <button class="boton-redondeado" onclick="">Encender luces camino</button>
+                    <button class="boton-redondeado" onclick="">Apagar luces camino</button>
+                    <h2> Control de piscina </h2>
+                    <button class="boton-redondeado" onclick="">Encender depuradora</button>
+                    <button class="boton-redondeado" onclick="">Apagar depuradora</button>
+                    <h4> Lecturas a tiempo real </h4>
+                    <p>PH: <span id='PH'>0.0</span> %</p>
+                    <p>Cloro: <span id='Cloro'>0.0</span> %</p>           
+                </div>
+                <div class="espacio">
+                <h2> Control de riego </h2>
+                <h4> Control de secion 1 </h4>
+                <button class="boton-redondeado" onclick="">Abrir llave</button>
+                <button class="boton-redondeado" onclick="">Cerrar llave</button>
+                <h4> Control de secion 2 </h4>
+                <button class="boton-redondeado" onclick="">Abrir llave</button>
+                <button class="boton-redondeado" onclick="">Cerrar llave</button>
+                <h4> Control de secion 3 </h4>
+                <button class="boton-redondeado" onclick="">Abrir llave</button>
+                <button class="boton-redondeado" onclick="">Cerrar llave</button>
+                <h4> Huerto </h4>
+                <button class="boton-redondeado" onclick="">Abrir llave</button>
+                <button class="boton-redondeado" onclick="">Cerrar llave</button>
+                <h4> Pozo </h4>
+                <button class="boton-redondeado" onclick="">Encender Pozo</button>
+                <button class="boton-redondeado" onclick="">Apagar Pozo</button>
+                <h3> Lecturas a tiempo real </h3>
+                <p>Temperatura: <span id='temperatura'>0.0</span> ºC</p>
+                <p>Humedad: <span id='humedad'>0.0</span> %</p>
+            </div>
+    </header>
+    <div class="rele-container">
+        <div class="espacio">
+            <h5>Relé 1 porche</h5>
+            <div id="rele1-status" class="status red"></div>
+        </div>
+        <div class="espacio">
+            <h5>Relé 2 camino</h5>
+            <div id="rele2-status" class="status red"></div>
+        </div>
+        <div class="espacio">
+            <h5>Relé 3 depuradora</h5>
+            <div id="rele3-status" class="status red"></div>
+        </div>
+        <div class="espacio">
+            <h5>Relé 4 depuradora automatico</h5>
+            <div id="rele4-status" class="status red"></div>
+        </div>
+        <div class="espacio">
+            <h5>Relé 5 secion 1</h5>
+            <div id="rele5-status" class="status red"></div>
+        </div>
+        <div class="espacio">
+            <h5>Relé 6 secion 1 automatico</h5>
+            <div id="rele6-status" class="status red"></div>
+        </div>
+        <div class="espacio">
+            <h5>Relé 7 secion 2</h5>
+            <div id="rele7-status" class="status red"></div>
+        </div>
+        <div class="espacio">
+            <h5>Relé 8 secion 2 automatico</h5>
+            <div id="rele8-status" class="status red"></div>
+        </div>
+        <div class="espacio">
+            <h5>Relé 9 secion 3</h5>
+            <div id="rele9-status" class="status red"></div>
+        </div>
+        <div class="espacio">
+            <h5>Relé 10 secion 3 automatico</h5>
+            <div id="rele10-status" class="status red"></div>
+        </div>
+        <div class="espacio">
+            <h5>Relé 11 Huerto</h5>
+            <div id="rele11-status" class="status red"></div>
+        </div>
+        <div class="espacio">
+            <h5>Relé 12 Huerto automatico</h5>
+            <div id="rele12-status" class="status red"></div>
+        </div>
+        <div class="espacio">
+            <h5>Relé 13 Pozo</h5>
+            <div id="rele13-status" class="status red"></div>
+        </div>
+        <div class="espacio">
+            <h5>Relé 14 Pozo automatico</h5>
+            <div id="rele14-status" class="status red"></div>
+        </div>
+    </div>
+</body>
+</html>
